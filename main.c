@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 	
 		FILE *ptr = fopen(argv[1], "rb");
 		if (ptr == NULL) {
-			fprintf(stderr, "hacksdump: %s: %s\n", argv[1], strerror(errno));
+			fprintf(stderr, "opdmp: %s: %s\n", argv[1], strerror(errno));
 
 			return 1;
 		}
